@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F44B1917536632B8BD7FEB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44B81BEE5D6CF245048A57 /* AppDelegate.swift */; };
+		9F44B2181B3861DF50C0B83B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F44BB10F46D3D154CC71CFC /* Preview Assets.xcassets */; };
+		9F44B339E9C18B27D75E0293 /* MyComif_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44BCDF3F0088160C3CA398 /* MyComif_ClientTests.swift */; };
+		9F44B51A9A368B6E3010F0C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44BC02B3824B360374BC77 /* SceneDelegate.swift */; };
+		9F44B776B15516D73EBDBFBA /* MyComif_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44B41F7C23485D421FD2C5 /* MyComif_ClientUITests.swift */; };
+		9F44B87663250E71015A5439 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44BA822D9D2CD3F046DEBE /* ContentView.swift */; };
+		9F44B93D0CAB26748F09F18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F44BAD18E2CBB9728B5E5B3 /* Assets.xcassets */; };
+		9F44BE5AF4C0AC5F390B8CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F44B6BC37AD00A91CA583C4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F44B90352FB03BFCD9760A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F44BDFBDF1907FEC1C49C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F44B703BE12B44C80CB8648;
+			remoteInfo = "MyComif'Client";
+		};
+		9F44BFB7CA713BF48962C1F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F44BDFBDF1907FEC1C49C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F44B703BE12B44C80CB8648;
+			remoteInfo = "MyComif'Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F44B1024FC81B65692EB447 /* MyComif'Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyComif'Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F44B41F7C23485D421FD2C5 /* MyComif_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComif_ClientUITests.swift; sourceTree = "<group>"; };
+		9F44B81BEE5D6CF245048A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F44B904352DD5F9CE745A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F44BA14F02052EBA31AB651 /* MyComif'ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyComif'ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F44BA822D9D2CD3F046DEBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F44BAD18E2CBB9728B5E5B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F44BB10F46D3D154CC71CFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F44BC02B3824B360374BC77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F44BCDF3F0088160C3CA398 /* MyComif_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComif_ClientTests.swift; sourceTree = "<group>"; };
+		9F44BD7CD30BE3C1B0D0B7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		9F44BD8F46B54707F2149C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		9F44BDBFA33E966FFFB5257A /* MyComif'ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyComif'ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F44BF6392962092A5B06EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F44B1B3EA8D5BDCC7CD31B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F44B3940F3B578E307A585D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F44BB79FC08C003EE8B6E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F44B263B519B164D6621DC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F44BB10F46D3D154CC71CFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F44B356B7DDB3BE9CDB674D /* MyComif'ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F44BD7CD30BE3C1B0D0B7D4 /* Info.plist */,
+				9F44BCDF3F0088160C3CA398 /* MyComif_ClientTests.swift */,
+			);
+			path = "MyComif'ClientTests";
+			sourceTree = "<group>";
+		};
+		9F44B4E61D9C4C900EB70F68 /* MyComif'Client */ = {
+			isa = PBXGroup;
+			children = (
+				9F44BD8F46B54707F2149C30 /* Info.plist */,
+				9F44BAD18E2CBB9728B5E5B3 /* Assets.xcassets */,
+				9F44B6BC37AD00A91CA583C4 /* LaunchScreen.storyboard */,
+				9F44B81BEE5D6CF245048A57 /* AppDelegate.swift */,
+				9F44BC02B3824B360374BC77 /* SceneDelegate.swift */,
+				9F44BA822D9D2CD3F046DEBE /* ContentView.swift */,
+				9F44B263B519B164D6621DC8 /* Preview Content */,
+			);
+			path = "MyComif'Client";
+			sourceTree = "<group>";
+		};
+		9F44B5421132043B80398900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F44B1024FC81B65692EB447 /* MyComif'Client.app */,
+				9F44BA14F02052EBA31AB651 /* MyComif'ClientTests.xctest */,
+				9F44BDBFA33E966FFFB5257A /* MyComif'ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F44BA47B703B32202A8929D /* MyComif'ClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F44BF6392962092A5B06EC9 /* Info.plist */,
+				9F44B41F7C23485D421FD2C5 /* MyComif_ClientUITests.swift */,
+			);
+			path = "MyComif'ClientUITests";
+			sourceTree = "<group>";
+		};
+		9F44BDDF8489D70189A2A4A8 = {
+			isa = PBXGroup;
+			children = (
+				9F44B5421132043B80398900 /* Products */,
+				9F44B4E61D9C4C900EB70F68 /* MyComif'Client */,
+				9F44B356B7DDB3BE9CDB674D /* MyComif'ClientTests */,
+				9F44BA47B703B32202A8929D /* MyComif'ClientUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F44B268EDF395761F537BE3 /* MyComif'ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F44BC4982F55BDF5E327DD4 /* Build configuration list for PBXNativeTarget "MyComif'ClientUITests" */;
+			buildPhases = (
+				9F44BEF848F62597FD5FEF2C /* Sources */,
+				9F44B1B3EA8D5BDCC7CD31B8 /* Frameworks */,
+				9F44B99591AB758A280BFF68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F44BA1EE1958B8388DCC0E8 /* PBXTargetDependency */,
+			);
+			name = "MyComif'ClientUITests";
+			productName = "MyComif'ClientUITests";
+			productReference = 9F44BDBFA33E966FFFB5257A /* MyComif'ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9F44B703BE12B44C80CB8648 /* MyComif'Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F44B4552238F350157929D2 /* Build configuration list for PBXNativeTarget "MyComif'Client" */;
+			buildPhases = (
+				9F44BBA3961B2D02AA86FA8E /* Sources */,
+				9F44BB79FC08C003EE8B6E5D /* Frameworks */,
+				9F44B76C8374D366B67446B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyComif'Client";
+			productName = "MyComif'Client";
+			productReference = 9F44B1024FC81B65692EB447 /* MyComif'Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F44B9C9D1D4C92A146C3DEF /* MyComif'ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F44BA02FFEA75C43A28A3D3 /* Build configuration list for PBXNativeTarget "MyComif'ClientTests" */;
+			buildPhases = (
+				9F44B1B059C365021A2792DE /* Sources */,
+				9F44B3940F3B578E307A585D /* Frameworks */,
+				9F44B2FD2435082D3FD5263B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F44B70C6FAD9E856E4BD592 /* PBXTargetDependency */,
+			);
+			name = "MyComif'ClientTests";
+			productName = "MyComif'ClientTests";
+			productReference = 9F44BA14F02052EBA31AB651 /* MyComif'ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F44BDFBDF1907FEC1C49C95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Jean-Christophe Chevalier";
+			};
+			buildConfigurationList = 9F44BA8DF38CBF28C13A4F0A /* Build configuration list for PBXProject "MyComif'Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 9F44BDDF8489D70189A2A4A8;
+			productRefGroup = 9F44B5421132043B80398900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F44B703BE12B44C80CB8648 /* MyComif'Client */,
+				9F44B9C9D1D4C92A146C3DEF /* MyComif'ClientTests */,
+				9F44B268EDF395761F537BE3 /* MyComif'ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F44B2FD2435082D3FD5263B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F44B76C8374D366B67446B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F44B93D0CAB26748F09F18D /* Assets.xcassets in Resources */,
+				9F44BE5AF4C0AC5F390B8CB6 /* LaunchScreen.storyboard in Resources */,
+				9F44B2181B3861DF50C0B83B /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F44B99591AB758A280BFF68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F44B1B059C365021A2792DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F44B339E9C18B27D75E0293 /* MyComif_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F44BBA3961B2D02AA86FA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F44B1917536632B8BD7FEB0 /* AppDelegate.swift in Sources */,
+				9F44B51A9A368B6E3010F0C2 /* SceneDelegate.swift in Sources */,
+				9F44B87663250E71015A5439 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F44BEF848F62597FD5FEF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F44B776B15516D73EBDBFBA /* MyComif_ClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F44B70C6FAD9E856E4BD592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F44B703BE12B44C80CB8648 /* MyComif'Client */;
+			targetProxy = 9F44BFB7CA713BF48962C1F8 /* PBXContainerItemProxy */;
+		};
+		9F44BA1EE1958B8388DCC0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F44B703BE12B44C80CB8648 /* MyComif'Client */;
+			targetProxy = 9F44B90352FB03BFCD9760A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F44B6BC37AD00A91CA583C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F44B904352DD5F9CE745A67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F44B0A408C1307C45BF7379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F44B3790C5D5C204D8A2CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyComif'Client.app/MyComif'Client";
+				INFOPLIST_FILE = "MyComif'ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.comif.MyComif-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		9F44B4A9F6DD90EB4A3E9436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyComif'Client.app/MyComif'Client";
+				INFOPLIST_FILE = "MyComif'ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.comif.MyComif-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		9F44B665EA8771C0A84E22E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_ASSET_PATHS = "\"MyComif'Client/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MyComif'Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.comif.MyComif-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F44B7C8A28D333E6CBB9BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F44B85AA8A6149B238D0607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MyComif'ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.comif.MyComif-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MyComif'Client";
+			};
+			name = Debug;
+		};
+		9F44BB3331BDE2C149312421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MyComif'ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.comif.MyComif-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MyComif'Client";
+			};
+			name = Release;
+		};
+		9F44BD07A2869417BE7FF954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_ASSET_PATHS = "\"MyComif'Client/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MyComif'Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.comif.MyComif-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F44B4552238F350157929D2 /* Build configuration list for PBXNativeTarget "MyComif'Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F44BD07A2869417BE7FF954 /* Debug */,
+				9F44B665EA8771C0A84E22E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F44BA02FFEA75C43A28A3D3 /* Build configuration list for PBXNativeTarget "MyComif'ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F44B3790C5D5C204D8A2CE6 /* Debug */,
+				9F44B4A9F6DD90EB4A3E9436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F44BA8DF38CBF28C13A4F0A /* Build configuration list for PBXProject "MyComif'Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F44B7C8A28D333E6CBB9BEA /* Debug */,
+				9F44B0A408C1307C45BF7379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F44BC4982F55BDF5E327DD4 /* Build configuration list for PBXNativeTarget "MyComif'ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F44B85AA8A6149B238D0607 /* Debug */,
+				9F44BB3331BDE2C149312421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F44BDFBDF1907FEC1C49C95 /* Project object */;
+}
